@@ -55,4 +55,13 @@ job = 'Teacher';
 lastName = 'Hicks';
 console.log(lastName);
 */
+const now = 2037;
+const ageMichael = now - 1984;
+const ageAli = now - 1988;
+console.log(ageMichael, ageAli);
 
+console.log(ageMichael * 2, ageMichael / 10, 2 ** 3) // 2 ** 3 means to 2 to the power of 3 = 2 * 2 * 2
+
+const firstName = 'Michael';
+const lastName = 'Hicks';
+console.log(firstName + ' ' + lastName)
