@@ -54,7 +54,9 @@ job = 'Teacher';
 
 lastName = 'Hicks';
 console.log(lastName);
-*/
+
+
+// math operators
 const now = 2037;
 const ageMichael = now - 1984;
 const ageAli = now - 1988;
@@ -64,4 +66,24 @@ console.log(ageMichael * 2, ageMichael / 10, 2 ** 3) // 2 ** 3 means to 2 to the
 
 const firstName = 'Michael';
 const lastName = 'Hicks';
-console.log(firstName + ' ' + lastName)
+console.log(firstName + ' ' + lastName);
+
+// assignment operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--; // x = x - 1
+console.log(x);
+
+// comparison operators
+console.log(ageMichael > ageAli);
+console.log(ageMichael > 18);
+console.log(ageMichael < ageAli);
+console.log(ageMichael <= ageAli);
+console.log(ageMichael >= ageAli);
+
+const isFullAge = ageAli >= 18;
+console.log(now - 1988 > now - 2019)
+*/
+
