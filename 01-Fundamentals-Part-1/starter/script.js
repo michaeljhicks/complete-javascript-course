@@ -85,7 +85,6 @@ console.log(ageMichael >= ageAli);
 
 const isFullAge = ageAli >= 18;
 console.log(now - 1988 > now - 2019);
-*/
 
 const now = 2037;
 const ageMichael = now - 1984;
@@ -97,4 +96,29 @@ console.log(now - 1988 > now - 2019);
 
 let x, y;
 x = y = 25 - 10 - 5 // x = y = 10
-console.log(x, y)
+console.log(x, y);
+
+const averageAge = (ageMichael + ageAli) / 2
+console.log(averageAge)
+*/
+
+const firstName = 'Mike';
+const job = 'programmer';
+const birthYear = 1984;
+const year = 2037;
+
+const mike = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(mike);
+
+const mikeNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
+console.log(mikeNew);
+
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines')
+
+console.log(`String
+multiple
+lines`)

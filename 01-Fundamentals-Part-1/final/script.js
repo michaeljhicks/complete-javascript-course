@@ -136,63 +136,63 @@ GOOD LUCK 😀
 // const massJohn = 92;
 // const heightJohn = 1.95;
 
-/*
-const massMark = 95;
-const heightMark = 1.88;
-const massJohn = 85;
-const heightJohn = 1.76;
 
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-const markHigherBMI = BMIMark > BMIJohn;
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
 
-console.log(BMIMark, BMIJohn, markHigherBMI);
+// const BMIMark = massMark / (heightMark ** 2);
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMIMark > BMIJohn;
+
+// console.log(BMIMark, BMIJohn, markHigherBMI);
 
 ////////////////////////////////////
 // Strings and Template Literals
-const firstName = 'Jonas';
-const job = 'teacher';
-const birthYear = 1991;
-const year = 2037;
+// const firstName = 'Jonas';
+// const job = 'teacher';
+// const birthYear = 1991;
+// const year = 2037;
 
-const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
-console.log(jonas);
+// const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+// console.log(jonas);
 
-const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(jonasNew);
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(jonasNew);
 
-console.log(`Just a regular string...`);
+// console.log(`Just a regular string...`);
 
-console.log('String with \n\
-multiple \n\
-lines');
+// console.log('String with \n\
+// multiple \n\
+// lines');
 
-console.log(`String
-multiple
-lines`);
+// console.log(`String
+// multiple
+// lines`);
 
 
 ////////////////////////////////////
 // Taking Decisions: if / else Statements
-const age = 15;
+// const age = 15;
 
-if (age >= 18) {
-  console.log('Sarah can start driving license 🚗');
-} else {
-  const yearsLeft = 18 - age;
-  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
-}
+// if (age >= 18) {
+//   console.log('Sarah can start driving license 🚗');
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+// }
 
-const birthYear = 2012;
+// const birthYear = 2012;
 
-let century;
-if (birthYear <= 2000) {
-  century = 20;
-} else {
-  century = 21;
-}
-console.log(century);
-*/
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century);
+
 
 ////////////////////////////////////
 // Coding Challenge #2
