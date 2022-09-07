@@ -84,6 +84,17 @@ console.log(ageMichael <= ageAli);
 console.log(ageMichael >= ageAli);
 
 const isFullAge = ageAli >= 18;
-console.log(now - 1988 > now - 2019)
+console.log(now - 1988 > now - 2019);
 */
 
+const now = 2037;
+const ageMichael = now - 1984;
+const ageAli = now - 1988;
+
+console.log(now - 1988 > now - 2019);
+
+// console.log(25 - 10 - 5);
+
+let x, y;
+x = y = 25 - 10 - 5 // x = y = 10
+console.log(x, y)
