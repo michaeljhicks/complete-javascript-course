@@ -19,7 +19,7 @@ let myFirstJob = 'Programmer';
 let myCurrentJob = 'Teacher';
 
 console.log(myFirstJob);
-*/
+
 // double slash is how you comment out code
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -40,3 +40,19 @@ year = 1991
 console.log(typeof year);
 
 console.log(typeof null); // this returns object, but its a bug
+
+
+// this is reassigning or mutating a value to a variable
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+console.log(birthYear)
+
+var job = 'Programmer';
+job = 'Teacher';
+
+lastName = 'Hicks';
+console.log(lastName);
+*/
+
