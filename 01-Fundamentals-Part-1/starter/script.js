@@ -16,4 +16,7 @@ let PI = 3.14;
 
 let myFirstJob = 'Programmer';
 let myCurrentJob = 'Teacher';
-console.log(myFirstJob)
+
+console.log(myFirstJob);
+
+// double slash is how you comment out code
